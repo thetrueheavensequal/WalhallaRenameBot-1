@@ -2,19 +2,19 @@ import re, os
 
 id_pattern = re.compile(r'^.\d+$') 
 
-API_ID = os.environ.get("API_ID", "")
+API_ID = os.environ.get("API_ID", "21927988")
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "e18f720acdff1e5b0ec80616aecd8a5a")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
-FORCE_SUB = os.environ.get("FORCE_SUB", "") 
+FORCE_SUB = os.environ.get("FORCE_SUB", "WalhallaBots") 
 
-DB_NAME = os.environ.get("DB_NAME","")     
+DB_NAME = os.environ.get("DB_NAME","walhallarenamer")     
 
-DB_URL = os.environ.get("DB_URL","")
+DB_URL = os.environ.get("DB_URL","mongodb+srv://dokjakim155:TBQApLQFWj4QUrzV@telegram.a5ag6r1.mongodb.net/?retryWrites=true&w=majority")
  
-FLOOD = int(os.environ.get("FLOOD", "10"))
+FLOOD = int(os.environ.get("FLOOD", "100"))
 
 START_PIC = os.environ.get("START_PIC", "")
 
