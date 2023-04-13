@@ -12,7 +12,7 @@ FORCE_SUB = os.environ.get("FORCE_SUB", "WalhallaBots")
 
 DB_NAME = os.environ.get("DB_NAME","walhallarenamer")     
 
-DB_URL = os.environ.get("DB_URL","mongodb+srv://dokjakim155:TBQApLQFWj4QUrzV@telegram.a5ag6r1.mongodb.net/?retryWrites=true&w=majority")
+DB_URL = os.environ.get("DB_URL","mongodb+srv://dokjakim155:yDDGwCNR3SqCVuNl@telegram.a5ag6r1.mongodb.net/?retryWrites=true&w=majority")
  
 FLOOD = int(os.environ.get("FLOOD", "100"))
 
